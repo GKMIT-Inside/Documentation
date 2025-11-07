@@ -44,14 +44,13 @@ Developers have access to a private workspace to manage their content contributi
 
 **Available Actions:**
 
-- Create and save drafts
+- Create posts
 - Submit posts for admin review
 - Edit rejected posts for resubmission
 - Track post status in real-time
 
 **Post Statuses:**
 
-- **Draft**: Work in progress, not submitted
 - **Submitted**: Under admin review
 - **Rejected**: Requires revision before resubmission
 - **Accepted**: Published to main feed
@@ -85,9 +84,8 @@ Core administrative functionality for content and user management.
 - Review submitted posts
 - Approve high-quality content
 - Reject posts requiring improvement
-- Provide feedback to contributors
 
-**User Management:**
+**Admin Management:**
 
 - Approve new user registrations
 - Assign appropriate roles
