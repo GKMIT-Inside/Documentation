@@ -1,6 +1,6 @@
-# Business Cases
+# **Business Cases**
 
-This section describes the business value and strategic implications of GKMIT_INSIDE features.
+This section describes the business value and strategic implications of **GKMIT_INSIDE** features.
 
 ## Knowledge Centralization
 
