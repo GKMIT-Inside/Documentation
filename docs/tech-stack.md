@@ -54,21 +54,22 @@ GKMIT_INSIDE is built using modern web technologies to ensure performance, scala
 
 ## System Architecture Diagram
 
-```
-┌─────────────────────────────────────────────────┐
-│                   Client Layer                  │
-│  (React + Context API + TailwindCSS + Shadcn)   │
-└──────────────────┬──────────────────────────────┘
-                   │ HTTPS/REST API
-┌──────────────────┴──────────────────────────────┐
-│              Application Layer                  │
-│         (Node.js + Express + JWT)               │
-└──────────────────┬──────────────────────────────┘
-                   │ MongoDB Driver
-┌──────────────────┴─────────────────────────────-─┐
-│               Database Layer                     │
-│                  (MongoDB)                       │
-└──────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    subgraph "Client Layer"
+    A[React + Context API + TailwindCSS + Shadcn]
+    end
+
+    subgraph "Application Layer"
+    B[Node.js + Express + JWT]
+    end
+
+    subgraph "Database Layer"
+    C[MongoDB]
+    end
+
+    A -->|HTTPS/REST API| B
+    B -->|MongoDB Driver| C
 ```
 
 ---
