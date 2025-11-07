@@ -1,4 +1,4 @@
-# GKMIT INSIDE
+# **GKMIT INSIDE**
 
 ![Logo](assets/images/gkmit_inside_logo.png){ width="300" }
 

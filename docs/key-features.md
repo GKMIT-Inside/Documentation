@@ -1,4 +1,4 @@
-# Key Features
+# **Key Features**
 
 **GKMIT_INSIDE** offers a comprehensive set of features designed to facilitate knowledge sharing and community collaboration.
 
