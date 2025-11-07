@@ -1,4 +1,4 @@
-site_name: GKMIT_INSIDE Documentation
+site_name: GKMIT INSIDE Documentation
 site_description: Knowledge-sharing platform for the GKMIT community
 site_author: GKMIT Team
 
@@ -21,9 +21,12 @@ theme:
         name: Switch to light mode
   
   features:
-    - navigation.tabs
+    # - navigation.tabs
+    # - navigation.top
+    - navigation.expand
     - navigation.sections
-    - navigation.top
+    - navigation.instant
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - content.tabs.link
