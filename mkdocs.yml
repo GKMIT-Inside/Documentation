@@ -64,6 +64,7 @@ nav:
   - Home: index.md
   - Key Features: key-features.md
   - Tech Stack: tech-stack.md
+  - Database Schema: database-schema.md
   - Pages and Endpoints: prototypes-endpoints.md
   # - Role Based Access Control: rbac.md
   - Use and Functional Cases: functional-cases.md
