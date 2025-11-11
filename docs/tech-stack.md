@@ -36,19 +36,21 @@ GKMIT_INSIDE is built using modern web technologies to ensure performance, scala
   <img style="display:inline-flex;align-items:center;justify-content:center;width:85px;height:85px;background:white;padding:6px;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,0.08);" src="https://cdn.worldvectorlogo.com/logos/vercel.svg" alt="Vercel" width="100">
 </div>
 
-## Stack Overview
+## **Stack Overview (Stable Versions)**
 
-| Category                 | Technology  | Purpose                    |
-| ------------------------ | ----------- | -------------------------- |
-| **Frontend Framework**   | ReactJS     | Core Library               |
-| **State Management**     | Context API | Global state management    |
-| **Styling Framework**    | TailwindCSS | Utility-first CSS styling  |
-| **UI Component Library** | Shadcn UI   | Pre-built UI components    |
-| **Backend Framework**    | Express.js  | Web application framework  |
-| **Database**             | MongoDB     | NoSQL document database    |
-| **Authentication**       | JWT         | Token-based authentication |
-| **Frontend Deployment**  | Vercel      | Frontend hosting platform  |
-| **Backend Deployment**   | Render      | Backend hosting platform   |
+| **Category**             | **Technology** | **Stable Version** | **Purpose**                      | **Version (LTS)**    |
+| ------------------------ | -------------- | ------------------ | -------------------------------- | -------------------- |
+| **Frontend Framework**   | ReactJS        | v19.2.0            | Core Library / Fast UI Rendering | ✅ LTS               |
+| **Build Tool**           | Vite           | v7.2               | Next-gen Frontend Tooling        | ✅ LTS               |
+| **State Management**     | Context API    | N/A (Core)         | Global State Management          | ✅ Included in React |
+| **Styling Framework**    | Tailwind CSS   | v4.1.13            | Utility-first CSS Styling        | ✅ Stable            |
+| **UI Component Library** | Shadcn/UI      | v0.9.5             | Accessible & Customizable UI     | ✅ Stable            |
+| **Backend Runtime**      | Node.js        | v24.x              | Server-side Logic Runtime        | ✅ LTS               |
+| **Backend Framework**    | Express.js     | v5.1.0             | API Routes and Middleware Logic  | ✅ Stable            |
+| **Authentication**       | JWT            | v9.0.2             | Token-based Security             | ✅ Stable            |
+| **Database**             | MongoDB        | v8.0               | NoSQL Document Database          | ✅ LTS               |
+| **Frontend Deployment**  | Vercel         | N/A (Platform)     | Frontend Hosting Platform        | ✅ Managed           |
+| **Backend Deployment**   | Render         | N/A (Platform)     | Backend Hosting Platform         | ✅ Managed           |
 
 ---
 
@@ -73,3 +75,12 @@ graph LR
 ```
 
 ---
+
+### **Summary**
+
+This technology stack is built on **modern, long-term stable (LTS)** releases ensuring security, performance, and maintainability.
+
+- **Frontend:** React, Vite, Tailwind, and Shadcn/UI deliver a fast, modular, and elegant UI layer.
+- **Backend:** Node.js and Express.js ensure robust, scalable API development.
+- **Data Layer:** MongoDB provides flexible NoSQL storage optimized for scalability.
+- **Deployment:** Vercel and Render streamline CI/CD pipelines with managed hosting for both frontend and backend.
