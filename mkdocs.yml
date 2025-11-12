@@ -73,6 +73,9 @@ nav:
           - Feed & Content Delivery Module : feed-content-delivery-module.md
           - Interaction System : interaction-system.md
           - Analytics Dashboard Module : analytics-dashboard-module.md
+  - Test Cases:
+        - Functional Test Cases: functional-test-cases.md
+
   - Use and Functional Cases: functional-cases.md
   - Business Cases: business-cases.md
 
