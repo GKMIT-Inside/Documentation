@@ -74,7 +74,7 @@ nav:
           - Interaction System : interaction-system.md
           - Analytics Dashboard Module : analytics-dashboard-module.md
   - Test Cases:
-        - Test Plans: test-plans.md
+        - Test Plan: test-plan.md
         - Functional Test Cases: 
           - TC 1 - Landing Page Test Cases: landing-page-test-cases.md 
           - TC 2 - Authentication & Authorization: functional-test-cases.md
