@@ -71,6 +71,9 @@ nav:
           - User Management Module : user-management-module.md
           - Interaction System : interaction-system.md
           - Feed & Content Delivery Module : feed-content-delivery-module.md
+  - CI/CD Pipeline and Deployment Flow:
+      - Code Workflow: code-workflow.md
+      - Security Scan (SAST & DAST): security-scan.md
           # - Analytics Dashboard Module : analytics-dashboard-module.md
   # - Test Cases:
   #       - Test Plan: test-plan.md
